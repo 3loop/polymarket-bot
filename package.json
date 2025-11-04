@@ -1,0 +1,19 @@
+{
+  "name": "farcaster-bot-template",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.1.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@3loop/transaction-decoder": "^0.30.2",
+    "@3loop/transaction-interpreter": "^0.12.1",
+    "@jitl/quickjs-singlefile-cjs-release-sync": "^0.31.0",
+    "@neynar/nodejs-sdk": "^3.34.0",
+    "effect": "^3.18.4",
+    "viem": "^2.38.5"
+  }
+}
