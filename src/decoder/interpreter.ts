@@ -42,7 +42,7 @@ export async function interpretTransaction(
   }).pipe(Effect.provide(layer));
 
   return Effect.runPromise(runnable).catch((e) => {
-    console.error(e);
+    console.error(`[Interpreter] ✗ Error:`, e);
     return null;
   });
 }
